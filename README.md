@@ -15,6 +15,11 @@ cd /path/to/project/this/folder
 npm install
 
 # Start server
+Create postgres db and get postgres url
+
+Example:
+DATABASE_URL="postgresql://prisma_user:prisma@localhost:5432/prisma_db?schema=public"
+
 npm start
 
 ```
